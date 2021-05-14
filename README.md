@@ -21,5 +21,9 @@ he was about to go undercover.
 2. In order to *inspect* an object you must to *focus on* the object first. For example *focus on* --> When prompted type the name of the object --> and then type *inspect*
 
 3. There are hints to help you type the correct commands
-## Documentation
-TODO --> I am going to write comments in the code and should I find it necessary I'll write a documenation here on README.md file
+
+## Error Fixing
+### java.lang.unsupportedClassVersionError
+I came along with the aformentioned error which I fixed, at least on my machine, by editing the *JRE System Library*.
+First I selected the *Alternate JRE* radio button and selected the my current which is *jdk-16.0.1*
+Should you have any problems follow the above steps
